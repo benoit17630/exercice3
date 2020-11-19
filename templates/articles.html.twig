@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+{% block titre %}Liste des articles {% endblock %}
+{% block section %}
+    <section class="flex ">
+        {% for article in articles %}
+
+            <div class="w-30">
+                <div ><img src="{{ article.image }}" alt="" class="image"></div>
+                <a href="{{ path('article',{id:article.id-1}) }}"><h3>{{ article.title }}</h3></a>
+            </div>
+
+        {% endfor %}
+    </section>
+
+{% endblock %}

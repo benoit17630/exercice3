@@ -1,12 +1,29 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        {% block stylesheets %}{% endblock %}
-    </head>
-    <body>
-        {% block body %}{% endblock %}
-        {% block javascripts %}{% endblock %}
-    </body>
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block titre %} {% endblock %}</title>
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+<body>
+<header>
+    <div class="w-100 item-center">
+        <div class="w-20"><img src="{{ asset('assets/img/logo.png') }}" alt="le logo" class=""></div>
+        <a href="{{ path('index') }}" class="w-20 ">Acueil</a>
+        <a href="{{ path('articles') }}" class="w-20 ">Articles</a>
+
+    </div>
+    {% block header %} {% endblock %}
+</header>
+<main>
+    {% block section %} {% endblock %}
+
+</main>
+<footer class="w-100">
+    <div class="w-20 logof "><img src="{{ asset('assets/img/logo.png') }}" alt="le logo" class=""></div>
+    {% block footer %} {% endblock %}
+</footer>
+</body>
 </html>

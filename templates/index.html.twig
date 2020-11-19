@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+{% block titre %}Accueil {% endblock %}
+{% block section %}
+    <section class="w-100">
+        {% for article in articles %}
+            {% if article.id >= 3%}
+                <div class="w-30">
+                <p>{{  article.title }}</p>
+                </div>
+            {% endif %}
+
+        {% endfor %}
+
+    </section>
+    <div class=""><img src="{{ asset('assets/img/photo.jpg') }}" alt="" class="w"></div>
+{% endblock %}
