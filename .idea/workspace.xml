@@ -19,17 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ba6c03-ff77-4581-9c50-e85a4adead70" name="Default Changelist" comment="premier">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/photo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/article.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/articles.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+    <list default="true" id="39ba6c03-ff77-4581-9c50-e85a4adead70" name="Default Changelist" comment="premier commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605793931044</updated>
       <workItem from="1605793932149" duration="546000" />
-      <workItem from="1605794509038" duration="11314000" />
+      <workItem from="1605794509038" duration="12571000" />
     </task>
     <task id="LOCAL-00001" summary="premier">
       <created>1605794598193</created>
@@ -197,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605794598193</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="premier commit">
+      <created>1605806963530</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605806963530</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,7 +216,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="premier" />
-    <option name="LAST_COMMIT_MESSAGE" value="premier" />
+    <MESSAGE value="premier commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="premier commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605793983100">
@@ -232,10 +232,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="730" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605800504908" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605794622024">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605806973176">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605794622024" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605806973176" />
     <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605794520268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
