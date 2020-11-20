@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ba6c03-ff77-4581-9c50-e85a4adead70" name="Default Changelist" comment="modifie pour afficher les 3 dernier article">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="39ba6c03-ff77-4581-9c50-e85a4adead70" name="Default Changelist" comment="modifie pour afficher les 3 dernier article" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -182,7 +178,7 @@
       <updated>1605793931044</updated>
       <workItem from="1605793932149" duration="546000" />
       <workItem from="1605794509038" duration="12592000" />
-      <workItem from="1605858949127" duration="6206000" />
+      <workItem from="1605858949127" duration="6789000" />
     </task>
     <task id="LOCAL-00001" summary="premier">
       <created>1605794598193</created>
@@ -212,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605867030986</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modifie pour afficher les 3 dernier article">
+      <created>1605868018296</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605868018296</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="730" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605800504908" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605867036463">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605868023409">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605867036462" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605868023409" />
     <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605794520268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
