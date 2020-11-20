@@ -16,10 +16,12 @@ class HomeController extends AbstractController
      */
     public function home(){
 
+
+        //j apelle la classe ArticlesHelper
+        $articlehelper = new ArticlesHelper();
+
          //j apelle ma metode last3 depuis Articlehelper
 
-
-        $articlehelper = new ArticlesHelper();
         $last3article= $articlehelper->last3();
 
 
