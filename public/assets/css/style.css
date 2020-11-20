@@ -13,6 +13,11 @@
 .image{
     width: 100%;
 }
+.bgindex{
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .boutton{
     background-color: chocolate;
     border: mediumorchid solid 3px;
