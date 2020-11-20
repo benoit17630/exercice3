@@ -2,7 +2,7 @@
 {% block titre %}Accueil {% endblock %}
 {% block section %}
     <section class="w-100 flex bgindex">
-        {% for article in articles|slice(-3) %}
+        {% for article in last3article %}
 
                 <div class="w-30 ">
                     <a class="none black" href="{{ path('article',{id:article.id}) }}"><h2>{{ article.title }}</h2></a>
