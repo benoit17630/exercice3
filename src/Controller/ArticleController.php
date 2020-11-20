@@ -10,7 +10,9 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ArticleController extends AbstractController
 {
-    private  $articles = [
+
+    //je cree une constante pour definir mon tableau
+    const articles = [
         1 => [
             "id" => 1,
             "title" => "Le gouvernement a trois mois pour prouver qu’il respecte ses engagements climatiques, une première en France",
@@ -48,8 +50,8 @@ class ArticleController extends AbstractController
      * @Route ("/articles", name="articles")
      */
     public function articles(){
-
-        $articles = $this->articles;
+//j apelle ma constante
+        $articles = self::articles;
 
 
 
@@ -68,7 +70,7 @@ class ArticleController extends AbstractController
 
     public function article($id):Response{
 
-        $articles = $this->articles;
+        $articles = self::articles;
 
         $article= $articles[$id];
 
