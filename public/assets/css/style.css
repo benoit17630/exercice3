@@ -8,10 +8,24 @@
     width: 100%;
     background-color: cyan;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .image{
     width: 100%;
+}
+.boutton{
+    background-color: chocolate;
+    border: mediumorchid solid 3px;
+    border-radius: 25px;
+    width: 90px;
+   height: 30px;
+}
+.none{
+    text-decoration: none;
+    color: yellow;
+}
+.black{
+    color: black;
 }
 .flex{
     display: flex;
@@ -35,8 +49,7 @@
 }
 .w{
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+
 }
 /*footer*/
 .logof{

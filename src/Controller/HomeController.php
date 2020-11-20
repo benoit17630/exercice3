@@ -95,6 +95,7 @@ class HomeController extends AbstractController
 
 
         return $this->render("articles.html.twig",[
+
             "articles"=> $articles
         ]);
     }

@@ -10,9 +10,9 @@
 <body>
 <header>
     <div class="w-100 item-center">
-        <div class="w-20"><img src="{{ asset('assets/img/logo.png') }}" alt="le logo" class=""></div>
-        <a href="{{ path('index') }}" class="w-20 ">Acueil</a>
-        <a href="{{ path('articles') }}" class="w-20 ">Articles</a>
+        <div class="w-20"><img src="{{ asset('assets/img/logo.png') }}" alt="le logo" class="w"></div>
+        <button class=" boutton"> <a href="{{ path('index') }}" class="w-20 none">Acueil</a></button>
+        <button class=" boutton"> <a href="{{ path('articles') }}" class="w-20 none">Articles</a></button>
 
     </div>
     {% block header %} {% endblock %}

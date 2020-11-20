@@ -52,7 +52,8 @@ class ArticleController extends AbstractController
 $article= $articles[$id];
 
         return $this->render("article.html.twig",[
-            "article"=> $article
+            "article"=> $article,
+
         ]);
     }
 }
