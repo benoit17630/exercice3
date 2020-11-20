@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39ba6c03-ff77-4581-9c50-e85a4adead70" name="Default Changelist" comment="ajout d une class prive pour eviter doublon">
-      <change beforePath="$PROJECT_DIR$/.idea/symfony2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+    <list default="true" id="39ba6c03-ff77-4581-9c50-e85a4adead70" name="Default Changelist" comment="ajout d une constante pour eviter doublon">
+      <change afterPath="$PROJECT_DIR$/src/Services/ArticlesHelper.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ArticleController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArticleController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
@@ -183,7 +183,8 @@
       <updated>1605793931044</updated>
       <workItem from="1605793932149" duration="546000" />
       <workItem from="1605794509038" duration="12592000" />
-      <workItem from="1605858949127" duration="12960000" />
+      <workItem from="1605858949127" duration="13789000" />
+      <workItem from="1605882494334" duration="3519000" />
     </task>
     <task id="LOCAL-00001" summary="premier">
       <created>1605794598193</created>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605877277448</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ajout d une constante pour eviter doublon">
+      <created>1605880446314</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605880446314</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,25 +290,30 @@
     <MESSAGE value="ajout de lien pour aller sur les 3dernier article de la page index" />
     <MESSAGE value="changement de place de la metode articles dans ArticleController.php&#10;et je fait le slice dans la metode au lieux de le faire dans le twig" />
     <MESSAGE value="ajout d une class prive pour eviter doublon" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout d une class prive pour eviter doublon" />
+    <MESSAGE value="ajout d une constante pour eviter doublon" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout d une constante pour eviter doublon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="770" y="419" key="#Composer" timestamp="1605793983100">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="770" y="419" key="#Composer/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605793983100" />
-    <state x="540" y="274" key="IDE.errors.dialog" timestamp="1605805946433">
+    <state x="691" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1605882694369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="540" y="274" key="IDE.errors.dialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605805946433" />
-    <state x="730" y="262" key="NewPhpClassDialog" timestamp="1605800504908">
+    <state x="691" y="295" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605882694369" />
+    <state x="540" y="274" key="IDE.errors.dialog" timestamp="1605880661465">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="730" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605800504908" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605877280523">
+    <state x="540" y="274" key="IDE.errors.dialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605880661465" />
+    <state x="730" y="262" key="NewPhpClassDialog" timestamp="1605882580777">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605877280523" />
+    <state x="730" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605882580777" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1605880465752">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1605880465752" />
     <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605794520268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
