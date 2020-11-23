@@ -188,7 +188,7 @@
       <workItem from="1605882494334" duration="6938000" />
       <workItem from="1605978527164" duration="12000" />
       <workItem from="1606056677095" duration="3000" />
-      <workItem from="1606121997742" duration="9198000" />
+      <workItem from="1606121997742" duration="9503000" />
     </task>
     <task id="LOCAL-00001" summary="premier">
       <created>1605794598193</created>
@@ -309,7 +309,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606137957344</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="creation BDD&#10;creation table Product (make:entity)&#10;creation table book (a la main)">
+      <created>1606138719580</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1606138719580</updated>
+    </task>
+    <task id="LOCAL-00019" summary="creation BDD&#10;creation table Product (make:entity)&#10;creation table book (a la main)">
+      <created>1606138768980</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1606138768980</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,10 +376,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="730" y="262" key="NewPhpClassDialog/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606136056121" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1606137964824">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1606138774194">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606137964824" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/3840.540.1920.1080/0.0.1920.1080@0.0.1920.1080" timestamp="1606138774194" />
     <state x="777" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605794520268">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
