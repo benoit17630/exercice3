@@ -48,9 +48,9 @@ class Book
      */
     private $nombre_de_page;
 
-    //creation du champ date de publication du type date
+    //creation du champ date de publication du type datetime pour afficher la date et l heure
     /**
-     * @ORM\Column(type="date")
+     * @ORM\Column(type="datetime")
      */
     private $date_publication;
 
