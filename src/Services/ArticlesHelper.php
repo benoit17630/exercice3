@@ -42,9 +42,8 @@ class ArticlesHelper
         ],
     ];
 
-// je contruit une metode last3 pour recuperer les 3 dernier articles
+// je construit une metode last3 pour recuperer les 3 dernier articles
     public function last3(){
-
 
         // j oublie surtous pas de retourner ma variable
         return $last3article= array_slice(ArticlesHelper::articles,-3);

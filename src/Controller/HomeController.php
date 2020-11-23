@@ -20,7 +20,7 @@ class HomeController extends AbstractController
         //j apelle la classe ArticlesHelper
         $articlehelper = new ArticlesHelper();
 
-         //j apelle ma metode last3 depuis Articlehelper
+         //j apelle ma metode last3 depuis ArticlesHelper
 
         $last3article= $articlehelper->last3();
 
